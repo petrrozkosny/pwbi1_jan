@@ -1,8 +1,3 @@
-# Vstupní dotazník
-
-https://docs.google.com/forms/d/e/1FAIpQLScRo8NaG49z5akGDUDaEElITaqZ1_RsemmxNp3YiADdSlmmFA/viewform
-
-
 
 # Lektor: Petr Rozkošný
 ( https://www.linkedin.com/in/rozkosny/, 731 162 655)
