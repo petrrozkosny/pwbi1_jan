@@ -4,3 +4,9 @@ SUMX(
         data,
     data[lokalita] = "RUZYNE"),
 data[srazky])
+
+
+______________________________________
+
+02 podil srazek = 
+SUM(data[srazky]) / SUMX(ALL(data),data[srazky])
