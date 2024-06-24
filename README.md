@@ -9,7 +9,7 @@
 
 # Kurz: Efektivní analýza dat a reporting
 
-Osnova kurzu: https://www.skoleni-ict.cz/kurz/Power-BI-Efektivni-analyza-dat-a-reporting-PWBI1.aspx
+
 
 Zdroj dat: https://www.ncdc.noaa.gov/cdo-web/search
 
