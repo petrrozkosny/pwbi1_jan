@@ -23,3 +23,18 @@ cv12 pf nazev grafu: Vývoj maximální teploty v roce {vybraný rok} a lokalit�
 Stránka typu popis dosazená na sloupcový graf, popis bude obsahovat vizuál typu tabulka a do ní dosazeno
 data[datum]
 data[maximalni_teplota]
+
+=======================================================================================================================
+
+Vizuál typu matice
+- řádky: mesic
+- sloupce: rok
+- hodnoty: maximalni_teplota (agregační funkce maximum)
+
+cv13 Barvou "gold" odlište nejvyšší hodnotu v daném měsíci bez ohledu na rok barvou "gold"
+ Na kontingenční tabulku nastavte popis, ve kterém bude tabulka s hodnotami
+- lokalita
+- maximalni_teplota (agregační funkce maximum)
+
+cv14 Barvou "gold" odlište nejvyšší hodnotu v tabulce
+
