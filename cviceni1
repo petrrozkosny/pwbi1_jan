@@ -1,0 +1,40 @@
+11 suma srazek v dane lokalite = 
+SUM(data[srazky])
+
+______________________________________
+
+12 suma srazek v dane lokalite rok 2000 = 
+
+SUMX(
+   FILTER(data,data[rok] = 2000),
+data[srazky])
+
+  ____________________
+
+13 suma srazek v dane lokalite rok 2000 a mesic 7 = 
+
+SUMX(
+    FILTER(data,
+        data[rok] = 2000
+        && data[mesic] = 7),
+data[srazky])
+
+  ____________________
+14 suma srazek v dane lokalite v poslednim datumu = 
+
+SUMX(
+    FILTER(data,
+    data[datum] = MAX(data[datum])),
+data[srazky])
+
+
+  __________________________
+
+  
+15 nejdestivejsi datum = 
+
+CONCATENATEX(
+    FILTER(
+        data,
+        data[srazky] = MAX(data[srazky])),
+data[datum],", ")
